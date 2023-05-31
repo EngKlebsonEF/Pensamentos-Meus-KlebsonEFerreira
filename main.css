@@ -57,7 +57,7 @@ h1, p {
     top: 0; left: 0; bottom: 0; right: 0;
     margin: auto;
     
-    border: 10px solid hsla(30,10%,20%,1);
+    border: 10px solid rgb(17, 17, 17);
     border-radius: 10px;
     box-shadow: 0 0 150px hsla(170,0%,0%,.4);
     }
