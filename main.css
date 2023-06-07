@@ -180,3 +180,16 @@ h1, p {
 audio:hover {
     opacity: 1;
 }
+
+
+@media screen and (orientation: portrait) {
+    body {
+        transform: rotate(0deg);
+    }
+}
+
+@media screen and (orientation: landscape) {
+    body {
+        transform: rotate(90deg);
+    }
+}
