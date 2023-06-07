@@ -359,24 +359,6 @@
         });
     </script>
 
-    <script>
-        // JavaScript para atualizar a rotação quando a orientação do dispositivo muda
-        function handleOrientationChange() {
-            if (screen.orientation.angle === 0) {
-                // Retrato
-                document.body.classList.remove('landscape');
-                document.body.classList.add('portrait');
-            } else if (screen.orientation.angle === 90) {
-                // Paisagem
-                document.body.classList.remove('portrait');
-                document.body.classList.add('landscape');
-            }
-        }
-
-        window.addEventListener('orientationchange', handleOrientationChange);
-        handleOrientationChange(); // Chamar a função inicialmente para definir a rotação correta
-    </script>
-
     <footer class="footer">
         &copy; 2023 KLEBSON EMMANUEL FERREIRA - Todos os direitos reservados - Music.: ES Synesthesia - Artist.: Clarence Reed - Beautiful Hopeful, Peaceful - Baixado do site.: https://www.epidemicsound.com/track/mXwTNpJBW8/
     </footer>
