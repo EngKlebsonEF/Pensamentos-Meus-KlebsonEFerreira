@@ -37,7 +37,11 @@ body * {
 }
 
 body {
+<<<<<<< HEAD
     background-image: url("./img/plano-de-fundo.jpg");
+=======
+    background-image: url("./img/imagem-que-traz-paz.jpg");
+>>>>>>> 54a8a24950e5bf7d412c4016581efa9256d159c3
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -62,10 +66,14 @@ p {
             hsla(0, 0%, 31%, 0.9),
             hsla(30, 2%, 80%, 0.4) 90%
         ),
+<<<<<<< HEAD
         url("./img/capa-interna-livro.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+=======
+        url("./img/imagem-que-traz-paz.jpg");
+>>>>>>> 54a8a24950e5bf7d412c4016581efa9256d159c3
     position: absolute;
     top: 0;
     left: 0;
@@ -102,15 +110,26 @@ p {
 }
 .side-1 {
     z-index: 2;
+<<<<<<< HEAD
     box-shadow: inset 30px 0 30px rgba(0, 0, 0, 0.2);
+=======
+    box-shadow: inset 50px 0 50px rgba(0, 0, 0, 0.5);
+>>>>>>> 54a8a24950e5bf7d412c4016581efa9256d159c3
     transition: 0.5s;
 }
 .side-2 {
     transform: rotateY(180deg);
+<<<<<<< HEAD
     box-shadow: inset -30px 0 30px rgba(0, 0, 0, 0.2);
 }
 .flipped > .side-1 {
     box-shadow: inset 300px 0 50px rgba(0, 0, 0, 0.5);
+=======
+    box-shadow: inset -50px 0 50px rgba(0, 0, 0, 0.5);
+}
+.flipped > .side-1 {
+    box-shadow: inset 300px 0 50px rgba(0, 0, 0, 0.8);
+>>>>>>> 54a8a24950e5bf7d412c4016581efa9256d159c3
     transition: 0.6s;
 }
 .flipped > [class*="side"] {
